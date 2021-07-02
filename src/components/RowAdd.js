@@ -1,4 +1,4 @@
-const RowAdd =({valFirstName, valLastName, valCredit, handleSubmit, handleCancel, handleOnChangeFN, handleOnChangeLN, handleOnChangeC})=>{
+const RowAdd =({valFirstName, valLastName, valCredit, handleSubmit, handleCancel, handleOnChange })=>{
     return(
         <tr>
             <td>
@@ -6,9 +6,9 @@ const RowAdd =({valFirstName, valLastName, valCredit, handleSubmit, handleCancel
                 <div>
                   <button type="submit">SAVE</button>
                   <button onClick={handleCancel}>CANCEL</button>
-                  <input value={valFirstName} onChange={handleOnChangeFN} />
-                  <input value={valLastName} onChange={handleOnChangeLN} />
-                  <input value={valCredit} onChange={handleOnChangeC} />
+                  <input value={valFirstName} name='name' onChange={handleOnChange} />
+                  <input value={valLastName} name='surname' onChange={handleOnChange} />
+                  <input value={valCredit} name='credit' onChange={handleOnChange} />
                 </div>
               </form>
             </td>
