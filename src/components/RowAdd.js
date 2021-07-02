@@ -3,7 +3,6 @@ const RowAdd =({valFirstName, valLastName, valCredit, handleSubmit, handleCancel
         <tr>
             <td>
               <form onSubmit={handleSubmit}>
-                <label>Форма добавления клиета</label>
                 <div>
                   <button type="submit">SAVE</button>
                   <button onClick={handleCancel}>CANCEL</button>
