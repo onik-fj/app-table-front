@@ -1,9 +1,31 @@
-.container{
-    display: flex;
-    flex-direction: row;
-}
-.buttonAdd{
+@mixin button-box {
     border: none;
     background: none;
     color: rgb(15, 35, 219);
+    width: 64px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 10px;
+}
+.buttonAdd{
+    @include button-box;
+    margin-left: 32px;
+}
+.title-container{
+    display: flex;
+    margin-left: 39px;
+}
+.header-title{
+    margin-right: 139px;
+    text-decoration: underline;
+}
+.header-title:last-child{
+    margin-left: -21px;
+}
+button{
+    @include button-box;
 }

@@ -9,7 +9,7 @@ const HeaderContainer=()=>{
       dispatch(changeStatusAdd(true));
     }
     return(
-        <header>
+    <header>
       <div className={"container"}>
         <Header handleAddRow={handleAddRow}/>
       </div>

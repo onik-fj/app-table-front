@@ -1,0 +1,22 @@
+.RowAdd{
+    width: 900px;
+}
+.add-input{
+    border: none;
+    outline: none;
+    width: 179px;
+    padding: 0;
+    margin-right: 2px;
+    &:focus{
+        border-bottom: 2px solid rgb(14, 25, 168);
+    }
+    &:hover{
+        border-bottom: 2px solid rgb(45, 57, 231);
+    }
+    &:last-child{
+        margin-left: 1px;
+    }   
+}
+.btn-form-cancel{
+    margin-right: 4px;
+}

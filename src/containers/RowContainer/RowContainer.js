@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import { useDispatch} from "react-redux";
-import Row from '../../components/Row';
-import RowEdit from '../../components/RowEdit';
+import Row from '../../components/Row/Row';
+import RowEdit from '../../components/RowEdit/RowEdit';
 import { removeTodoTask, editTodoTask } from '../../Redux/todoSlice';
 import { deleteUser, putUser } from '../RowContainer/asyncActions'
 

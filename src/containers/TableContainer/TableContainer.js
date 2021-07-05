@@ -2,8 +2,9 @@ import React,{useState, useEffect} from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addTodoTask, getTodoTask, changeStatusAdd } from '../../Redux/todoSlice';
 import RowContainer from "../RowContainer/RowContainer";
-import RowAdd from "../../components/RowAdd";
+import RowAdd from "../../components/RowAdd/RowAdd";
 import { postUser, getUsers } from "./asyncActions";
+import './Table.scss';
 
 const TableContainer=()=>{
   const dispatch = useDispatch();

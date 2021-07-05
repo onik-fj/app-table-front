@@ -1,0 +1,11 @@
+.edit-input{
+    border: none;
+    outline: none;
+    padding-left: 4px;
+    &:focus{
+        border-bottom: 2px solid rgb(14, 25, 168);
+    }
+    &:hover{
+        border-bottom: 2px solid rgb(45, 57, 231);
+    } 
+}
