@@ -9,7 +9,9 @@
     flex-direction: row;
     width: 100%;
     max-width: 700px;
-    margin-bottom: 10px;
+    height: 26px;
+    background-color: rgb(234, 232, 236);
+    border-radius: 5px; 
 }
 .buttonAdd{
     @include button-box;
@@ -21,11 +23,16 @@
 }
 .header-title{
     margin-right: 139px;
-    text-decoration: underline;
+    padding-top: 1px;
 }
 .header-title:last-child{
     margin-left: -21px;
 }
 button{
     @include button-box;
+}
+header{
+    border-bottom: 1px solid rgb(29, 22, 94);
+    border-top: 1px solid rgb(29, 22, 94);
+    border-radius: 5px;
 }

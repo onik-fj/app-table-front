@@ -2,10 +2,13 @@
     border: none;
     outline: none;
     padding-left: 4px;
+    background-color: rgb(234, 232, 236);
     &:focus{
-        border-bottom: 2px solid rgb(14, 25, 168);
+        margin-bottom: -1px;
+        border-bottom: 1px solid rgb(14, 25, 168);
     }
     &:hover{
-        border-bottom: 2px solid rgb(45, 57, 231);
+        margin-bottom: -1px;
+        border-bottom: 1px solid rgb(45, 57, 231);
     }
 }
